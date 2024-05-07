@@ -1,13 +1,13 @@
 //
-//  NineUITests.swift
-//  NineUITests
+//  Nine_iOSUITests.swift
+//  Nine-iOSUITests
 //
 //  Created by Rob on 07/05/2024.
 //
 
 import XCTest
 
-final class NineUITests: XCTestCase {
+final class Nine_iOSUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

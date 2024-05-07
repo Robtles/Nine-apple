@@ -1,13 +1,14 @@
 //
-//  NineTests.swift
-//  NineTests
+//  Nine_iOSTests.swift
+//  Nine-iOSTests
 //
 //  Created by Rob on 07/05/2024.
 //
 
 import XCTest
+@testable import Nine_iOS
 
-final class NineTests: XCTestCase {
+final class Nine_iOSTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,7 +28,7 @@ final class NineTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

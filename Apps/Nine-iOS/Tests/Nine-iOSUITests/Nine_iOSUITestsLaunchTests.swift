@@ -1,13 +1,13 @@
 //
-//  NineUITestsLaunchTests.swift
-//  NineUITests
+//  Nine_iOSUITestsLaunchTests.swift
+//  Nine-iOSUITests
 //
 //  Created by Rob on 07/05/2024.
 //
 
 import XCTest
 
-final class NineUITestsLaunchTests: XCTestCase {
+final class Nine_iOSUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
