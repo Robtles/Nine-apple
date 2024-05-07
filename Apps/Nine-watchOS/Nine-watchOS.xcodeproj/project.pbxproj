@@ -15,6 +15,8 @@
 		D4180A412BEA2B9B006F2156 /* Nine_watchOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A402BEA2B9B006F2156 /* Nine_watchOS_Tests.swift */; };
 		D4180A4B2BEA2B9B006F2156 /* Nine_watchOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A4A2BEA2B9B006F2156 /* Nine_watchOS_UITests.swift */; };
 		D4180A4D2BEA2B9B006F2156 /* Nine_watchOS_UILaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A4C2BEA2B9B006F2156 /* Nine_watchOS_UILaunchTests.swift */; };
+		D4180B352BEA2EB6006F2156 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B342BEA2EB6006F2156 /* Model.framework */; };
+		D4180B362BEA2EB6006F2156 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B342BEA2EB6006F2156 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,17 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4180B372BEA2EB6006F2156 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4180B362BEA2EB6006F2156 /* Model.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +80,7 @@
 		D4180A462BEA2B9B006F2156 /* Nine-watchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nine-watchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4180A4A2BEA2B9B006F2156 /* Nine_watchOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_watchOS_UITests.swift; sourceTree = "<group>"; };
 		D4180A4C2BEA2B9B006F2156 /* Nine_watchOS_UILaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_watchOS_UILaunchTests.swift; sourceTree = "<group>"; };
+		D4180B342BEA2EB6006F2156 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4180B352BEA2EB6006F2156 /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +115,7 @@
 				D4180A6C2BEA2BA5006F2156 /* Sources */,
 				D4180A6D2BEA2BA8006F2156 /* Tests */,
 				D4180A252BEA2B9A006F2156 /* Products */,
+				D4180B332BEA2EB6006F2156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +199,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D4180B332BEA2EB6006F2156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4180B342BEA2EB6006F2156 /* Model.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,6 +234,7 @@
 				D4180A262BEA2B9A006F2156 /* Sources */,
 				D4180A272BEA2B9A006F2156 /* Frameworks */,
 				D4180A282BEA2B9A006F2156 /* Resources */,
+				D4180B372BEA2EB6006F2156 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

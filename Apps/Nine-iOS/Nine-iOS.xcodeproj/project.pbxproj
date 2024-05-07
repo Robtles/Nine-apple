@@ -14,6 +14,8 @@
 		D41809AC2BEA2897006F2156 /* Nine_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41809AB2BEA2897006F2156 /* Nine_iOSTests.swift */; };
 		D41809B62BEA2897006F2156 /* Nine_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41809B52BEA2897006F2156 /* Nine_iOSUITests.swift */; };
 		D41809B82BEA2897006F2156 /* Nine_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41809B72BEA2897006F2156 /* Nine_iOSUITestsLaunchTests.swift */; };
+		D4180B212BEA2E5C006F2156 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B202BEA2E5C006F2156 /* Model.framework */; };
+		D4180B222BEA2E5C006F2156 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B202BEA2E5C006F2156 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D4180B232BEA2E5C006F2156 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4180B222BEA2E5C006F2156 /* Model.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D41809972BEA2896006F2156 /* Nine-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nine-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D418099A2BEA2896006F2156 /* App_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_iOS.swift; sourceTree = "<group>"; };
@@ -44,6 +60,7 @@
 		D41809B12BEA2897006F2156 /* Nine-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nine-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41809B52BEA2897006F2156 /* Nine_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_iOSUITests.swift; sourceTree = "<group>"; };
 		D41809B72BEA2897006F2156 /* Nine_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4180B202BEA2E5C006F2156 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4180B212BEA2E5C006F2156 /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,7 @@
 				D41809D02BEA28A6006F2156 /* Sources */,
 				D41809D12BEA28A9006F2156 /* Tests */,
 				D41809982BEA2896006F2156 /* Products */,
+				D4180B1F2BEA2E5C006F2156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +178,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		D4180B1F2BEA2E5C006F2156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4180B202BEA2E5C006F2156 /* Model.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +196,7 @@
 				D41809932BEA2896006F2156 /* Sources */,
 				D41809942BEA2896006F2156 /* Frameworks */,
 				D41809952BEA2896006F2156 /* Resources */,
+				D4180B232BEA2E5C006F2156 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

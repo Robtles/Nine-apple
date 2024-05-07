@@ -13,6 +13,8 @@
 		D4180ACD2BEA2D5D006F2156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4180ACC2BEA2D5D006F2156 /* Assets.xcassets */; };
 		D4180AD02BEA2D5D006F2156 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4180ACF2BEA2D5D006F2156 /* Preview Assets.xcassets */; };
 		D4180ADB2BEA2D5D006F2156 /* Nine_visionOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180ADA2BEA2D5D006F2156 /* Nine_visionOSTests.swift */; };
+		D4180B302BEA2E81006F2156 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B2F2BEA2E81006F2156 /* Model.framework */; };
+		D4180B312BEA2E81006F2156 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B2F2BEA2E81006F2156 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D4180B322BEA2E81006F2156 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4180B312BEA2E81006F2156 /* Model.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D4180AC12BEA2D5C006F2156 /* Nine-visionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nine-visionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4180AC52BEA2D5C006F2156 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
@@ -35,6 +51,7 @@
 		D4180AD12BEA2D5D006F2156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4180AD62BEA2D5D006F2156 /* Nine-visionOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nine-visionOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4180ADA2BEA2D5D006F2156 /* Nine_visionOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_visionOSTests.swift; sourceTree = "<group>"; };
+		D4180B2F2BEA2E81006F2156 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4180B302BEA2E81006F2156 /* Model.framework in Frameworks */,
 				D4180AC72BEA2D5C006F2156 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +81,7 @@
 				D4180AC22BEA2D5C006F2156 /* Products */,
 				D4180AED2BEA2D69006F2156 /* Sources */,
 				D4180AEE2BEA2D6D006F2156 /* Tests */,
+				D4180B2E2BEA2E81006F2156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +162,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D4180B2E2BEA2E81006F2156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4180B2F2BEA2E81006F2156 /* Model.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,6 +180,7 @@
 				D4180ABD2BEA2D5C006F2156 /* Sources */,
 				D4180ABE2BEA2D5C006F2156 /* Frameworks */,
 				D4180ABF2BEA2D5C006F2156 /* Resources */,
+				D4180B322BEA2E81006F2156 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

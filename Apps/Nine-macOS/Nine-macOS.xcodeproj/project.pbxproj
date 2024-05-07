@@ -14,6 +14,8 @@
 		D41809F42BEA29EB006F2156 /* Nine_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41809F32BEA29EB006F2156 /* Nine_macOSTests.swift */; };
 		D41809FE2BEA29EB006F2156 /* Nine_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41809FD2BEA29EB006F2156 /* Nine_macOSUITests.swift */; };
 		D4180A002BEA29EB006F2156 /* Nine_macOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41809FF2BEA29EB006F2156 /* Nine_macOSUITestsLaunchTests.swift */; };
+		D4180B262BEA2E6D006F2156 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B252BEA2E6D006F2156 /* Model.framework */; };
+		D4180B272BEA2E6D006F2156 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B252BEA2E6D006F2156 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D4180B282BEA2E6D006F2156 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4180B272BEA2E6D006F2156 /* Model.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D41809DE2BEA29E9006F2156 /* Nine-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nine-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41809E12BEA29E9006F2156 /* App_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_macOS.swift; sourceTree = "<group>"; };
@@ -45,6 +61,7 @@
 		D41809F92BEA29EB006F2156 /* Nine-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nine-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41809FD2BEA29EB006F2156 /* Nine_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_macOSUITests.swift; sourceTree = "<group>"; };
 		D41809FF2BEA29EB006F2156 /* Nine_macOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_macOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4180B252BEA2E6D006F2156 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4180B262BEA2E6D006F2156 /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,7 @@
 				D4180A182BEA29FF006F2156 /* Sources */,
 				D4180A192BEA2A02006F2156 /* Tests */,
 				D41809DF2BEA29E9006F2156 /* Products */,
+				D4180B242BEA2E6D006F2156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +180,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D4180B242BEA2E6D006F2156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4180B252BEA2E6D006F2156 /* Model.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,6 +198,7 @@
 				D41809DA2BEA29E9006F2156 /* Sources */,
 				D41809DB2BEA29E9006F2156 /* Frameworks */,
 				D41809DC2BEA29E9006F2156 /* Resources */,
+				D4180B282BEA2E6D006F2156 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

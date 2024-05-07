@@ -14,6 +14,8 @@
 		D4180A8F2BEA2CCC006F2156 /* Nine_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A8E2BEA2CCC006F2156 /* Nine_tvOSTests.swift */; };
 		D4180A992BEA2CCC006F2156 /* Nine_tvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A982BEA2CCC006F2156 /* Nine_tvOSUITests.swift */; };
 		D4180A9B2BEA2CCC006F2156 /* Nine_tvOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A9A2BEA2CCC006F2156 /* Nine_tvOSUITestsLaunchTests.swift */; };
+		D4180B2B2BEA2E78006F2156 /* Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B2A2BEA2E78006F2156 /* Model.framework */; };
+		D4180B2C2BEA2E78006F2156 /* Model.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4180B2A2BEA2E78006F2156 /* Model.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D4180B2D2BEA2E78006F2156 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D4180B2C2BEA2E78006F2156 /* Model.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D4180A7A2BEA2CCB006F2156 /* Nine-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nine-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4180A7D2BEA2CCB006F2156 /* App_tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_tvOS.swift; sourceTree = "<group>"; };
@@ -44,6 +60,7 @@
 		D4180A942BEA2CCC006F2156 /* Nine-tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nine-tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4180A982BEA2CCC006F2156 /* Nine_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_tvOSUITests.swift; sourceTree = "<group>"; };
 		D4180A9A2BEA2CCC006F2156 /* Nine_tvOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_tvOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4180B2A2BEA2E78006F2156 /* Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4180B2B2BEA2E78006F2156 /* Model.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,7 @@
 				D4180AB32BEA2CD6006F2156 /* Sources */,
 				D4180AB42BEA2CDA006F2156 /* Tests */,
 				D4180A7B2BEA2CCB006F2156 /* Products */,
+				D4180B292BEA2E78006F2156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +178,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D4180B292BEA2E78006F2156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4180B2A2BEA2E78006F2156 /* Model.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +196,7 @@
 				D4180A762BEA2CCB006F2156 /* Sources */,
 				D4180A772BEA2CCB006F2156 /* Frameworks */,
 				D4180A782BEA2CCB006F2156 /* Resources */,
+				D4180B2D2BEA2E78006F2156 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

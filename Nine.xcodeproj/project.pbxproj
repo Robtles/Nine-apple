@@ -112,6 +112,20 @@
 			remoteGlobalIDString = D4180AD62BEA2D5D006F2156;
 			remoteInfo = "Nine-visionOSTests";
 		};
+		D4180B192BEA2E31006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180B142BEA2E30006F2156 /* Model.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4180AFC2BEA2E30006F2156;
+			remoteInfo = Model;
+		};
+		D4180B1B2BEA2E31006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180B142BEA2E30006F2156 /* Model.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4180B042BEA2E30006F2156;
+			remoteInfo = ModelTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +134,7 @@
 		D4180A5D2BEA2B9B006F2156 /* Nine-watchOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Nine-watchOS.xcodeproj"; path = "Nine-watchOS/Nine-watchOS.xcodeproj"; sourceTree = "<group>"; };
 		D4180AA72BEA2CCC006F2156 /* Nine-tvOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Nine-tvOS.xcodeproj"; path = "Nine-tvOS/Nine-tvOS.xcodeproj"; sourceTree = "<group>"; };
 		D4180AE42BEA2D5D006F2156 /* Nine-visionOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Nine-visionOS.xcodeproj"; path = "Nine-visionOS/Nine-visionOS.xcodeproj"; sourceTree = "<group>"; };
+		D4180B142BEA2E30006F2156 /* Model.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Model.xcodeproj; path = Model/Model.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -138,6 +153,7 @@
 		D418098D2BEA287A006F2156 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4180B142BEA2E30006F2156 /* Model.xcodeproj */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +208,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D4180B152BEA2E30006F2156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4180B1A2BEA2E31006F2156 /* Model.framework */,
+				D4180B1C2BEA2E31006F2156 /* ModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D43E6F392BEA15A30083F891 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +247,10 @@
 			productRefGroup = D43E6F392BEA15A30083F891;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = D4180B152BEA2E30006F2156 /* Products */;
+					ProjectRef = D4180B142BEA2E30006F2156 /* Model.xcodeproj */;
+				},
 				{
 					ProductGroup = D41809C52BEA2897006F2156 /* Products */;
 					ProjectRef = D41809C42BEA2897006F2156 /* Nine-iOS.xcodeproj */;
@@ -353,6 +382,20 @@
 			fileType = wrapper.cfbundle;
 			path = "Nine-visionOSTests.xctest";
 			remoteRef = D4180AEB2BEA2D5D006F2156 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4180B1A2BEA2E31006F2156 /* Model.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Model.framework;
+			remoteRef = D4180B192BEA2E31006F2156 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4180B1C2BEA2E31006F2156 /* ModelTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ModelTests.xctest;
+			remoteRef = D4180B1B2BEA2E31006F2156 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
