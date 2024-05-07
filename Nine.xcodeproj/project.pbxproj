@@ -49,11 +49,40 @@
 			remoteGlobalIDString = D41809F92BEA29EB006F2156;
 			remoteInfo = "Nine-macOSUITests";
 		};
+		D4180A642BEA2B9B006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180A5D2BEA2B9B006F2156 /* Nine-watchOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4180A242BEA2B9A006F2156;
+			remoteInfo = "Nine-watchOS";
+		};
+		D4180A662BEA2B9B006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180A5D2BEA2B9B006F2156 /* Nine-watchOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4180A2A2BEA2B9A006F2156;
+			remoteInfo = "Nine-watchOS Watch App";
+		};
+		D4180A682BEA2B9B006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180A5D2BEA2B9B006F2156 /* Nine-watchOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4180A3C2BEA2B9B006F2156;
+			remoteInfo = "Nine-watchOS Watch AppTests";
+		};
+		D4180A6A2BEA2B9B006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180A5D2BEA2B9B006F2156 /* Nine-watchOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4180A462BEA2B9B006F2156;
+			remoteInfo = "Nine-watchOS Watch AppUITests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D41809C42BEA2897006F2156 /* Nine-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Nine-iOS.xcodeproj"; path = "Nine-iOS/Nine-iOS.xcodeproj"; sourceTree = "<group>"; };
 		D4180A0C2BEA29EB006F2156 /* Nine-macOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Nine-macOS.xcodeproj"; path = "Nine-macOS/Nine-macOS.xcodeproj"; sourceTree = "<group>"; };
+		D4180A5D2BEA2B9B006F2156 /* Nine-watchOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Nine-watchOS.xcodeproj"; path = "Nine-watchOS/Nine-watchOS.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -62,6 +91,7 @@
 			children = (
 				D41809C42BEA2897006F2156 /* Nine-iOS.xcodeproj */,
 				D4180A0C2BEA29EB006F2156 /* Nine-macOS.xcodeproj */,
+				D4180A5D2BEA2B9B006F2156 /* Nine-watchOS.xcodeproj */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -89,6 +119,17 @@
 				D4180A132BEA29EB006F2156 /* Nine-macOS.app */,
 				D4180A152BEA29EB006F2156 /* Nine-macOSTests.xctest */,
 				D4180A172BEA29EB006F2156 /* Nine-macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4180A5E2BEA2B9B006F2156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A652BEA2B9B006F2156 /* Nine-watchOS.app */,
+				D4180A672BEA2B9B006F2156 /* Nine-watchOS Watch App.app */,
+				D4180A692BEA2B9B006F2156 /* Nine-watchOS Watch AppTests.xctest */,
+				D4180A6B2BEA2B9B006F2156 /* Nine-watchOS Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +171,10 @@
 				{
 					ProductGroup = D4180A0D2BEA29EB006F2156 /* Products */;
 					ProjectRef = D4180A0C2BEA29EB006F2156 /* Nine-macOS.xcodeproj */;
+				},
+				{
+					ProductGroup = D4180A5E2BEA2B9B006F2156 /* Products */;
+					ProjectRef = D4180A5D2BEA2B9B006F2156 /* Nine-watchOS.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -179,6 +224,34 @@
 			fileType = wrapper.cfbundle;
 			path = "Nine-macOSUITests.xctest";
 			remoteRef = D4180A162BEA29EB006F2156 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4180A652BEA2B9B006F2156 /* Nine-watchOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Nine-watchOS.app";
+			remoteRef = D4180A642BEA2B9B006F2156 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4180A672BEA2B9B006F2156 /* Nine-watchOS Watch App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Nine-watchOS Watch App.app";
+			remoteRef = D4180A662BEA2B9B006F2156 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4180A692BEA2B9B006F2156 /* Nine-watchOS Watch AppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Nine-watchOS Watch AppTests.xctest";
+			remoteRef = D4180A682BEA2B9B006F2156 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D4180A6B2BEA2B9B006F2156 /* Nine-watchOS Watch AppUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Nine-watchOS Watch AppUITests.xctest";
+			remoteRef = D4180A6A2BEA2B9B006F2156 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

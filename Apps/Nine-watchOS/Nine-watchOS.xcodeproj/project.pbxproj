@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4180A2B2BEA2B9A006F2156 /* Nine-watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D4180A2A2BEA2B9A006F2156 /* Nine-watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4180A302BEA2B9A006F2156 /* App_watchOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A2F2BEA2B9A006F2156 /* App_watchOS.swift */; };
+		D4180A322BEA2B9A006F2156 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A312BEA2B9A006F2156 /* ContentView.swift */; };
+		D4180A342BEA2B9B006F2156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4180A332BEA2B9B006F2156 /* Assets.xcassets */; };
+		D4180A372BEA2B9B006F2156 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4180A362BEA2B9B006F2156 /* Preview Assets.xcassets */; };
+		D4180A412BEA2B9B006F2156 /* Nine_watchOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A402BEA2B9B006F2156 /* Nine_watchOS_Tests.swift */; };
+		D4180A4B2BEA2B9B006F2156 /* Nine_watchOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A4A2BEA2B9B006F2156 /* Nine_watchOS_UITests.swift */; };
+		D4180A4D2BEA2B9B006F2156 /* Nine_watchOS_UILaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4180A4C2BEA2B9B006F2156 /* Nine_watchOS_UILaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4180A2C2BEA2B9A006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180A1E2BEA2B9A006F2156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4180A292BEA2B9A006F2156;
+			remoteInfo = "Nine-watchOS Watch App";
+		};
+		D4180A3D2BEA2B9B006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180A1E2BEA2B9A006F2156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4180A292BEA2B9A006F2156;
+			remoteInfo = "Nine-watchOS Watch App";
+		};
+		D4180A472BEA2B9B006F2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4180A1E2BEA2B9A006F2156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4180A292BEA2B9A006F2156;
+			remoteInfo = "Nine-watchOS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4180A532BEA2B9B006F2156 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D4180A2B2BEA2B9A006F2156 /* Nine-watchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D4180A242BEA2B9A006F2156 /* Nine-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nine-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4180A2A2BEA2B9A006F2156 /* Nine-watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nine-watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4180A2F2BEA2B9A006F2156 /* App_watchOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_watchOS.swift; sourceTree = "<group>"; };
+		D4180A312BEA2B9A006F2156 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4180A332BEA2B9B006F2156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4180A362BEA2B9B006F2156 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4180A3C2BEA2B9B006F2156 /* Nine-watchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nine-watchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4180A402BEA2B9B006F2156 /* Nine_watchOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_watchOS_Tests.swift; sourceTree = "<group>"; };
+		D4180A462BEA2B9B006F2156 /* Nine-watchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nine-watchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4180A4A2BEA2B9B006F2156 /* Nine_watchOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_watchOS_UITests.swift; sourceTree = "<group>"; };
+		D4180A4C2BEA2B9B006F2156 /* Nine_watchOS_UILaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nine_watchOS_UILaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4180A272BEA2B9A006F2156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4180A392BEA2B9B006F2156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4180A432BEA2B9B006F2156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4180A1D2BEA2B9A006F2156 = {
+			isa = PBXGroup;
+			children = (
+				D4180A6C2BEA2BA5006F2156 /* Sources */,
+				D4180A6D2BEA2BA8006F2156 /* Tests */,
+				D4180A252BEA2B9A006F2156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4180A252BEA2B9A006F2156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A242BEA2B9A006F2156 /* Nine-watchOS.app */,
+				D4180A2A2BEA2B9A006F2156 /* Nine-watchOS Watch App.app */,
+				D4180A3C2BEA2B9B006F2156 /* Nine-watchOS Watch AppTests.xctest */,
+				D4180A462BEA2B9B006F2156 /* Nine-watchOS Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4180A352BEA2B9B006F2156 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A362BEA2B9B006F2156 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4180A3F2BEA2B9B006F2156 /* Nine-watchOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A402BEA2B9B006F2156 /* Nine_watchOS_Tests.swift */,
+			);
+			path = "Nine-watchOSTests";
+			sourceTree = "<group>";
+		};
+		D4180A492BEA2B9B006F2156 /* Nine-watchOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A4A2BEA2B9B006F2156 /* Nine_watchOS_UITests.swift */,
+				D4180A4C2BEA2B9B006F2156 /* Nine_watchOS_UILaunchTests.swift */,
+			);
+			path = "Nine-watchOSUITests";
+			sourceTree = "<group>";
+		};
+		D4180A6C2BEA2BA5006F2156 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A6E2BEA2BB0006F2156 /* Base */,
+				D4180A6F2BEA2BB3006F2156 /* Resources */,
+				D4180A702BEA2BB7006F2156 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D4180A6D2BEA2BA8006F2156 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A3F2BEA2B9B006F2156 /* Nine-watchOSTests */,
+				D4180A492BEA2B9B006F2156 /* Nine-watchOSUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D4180A6E2BEA2BB0006F2156 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A2F2BEA2B9A006F2156 /* App_watchOS.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D4180A6F2BEA2BB3006F2156 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A332BEA2B9B006F2156 /* Assets.xcassets */,
+				D4180A352BEA2B9B006F2156 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4180A702BEA2BB7006F2156 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4180A312BEA2B9A006F2156 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4180A232BEA2B9A006F2156 /* Nine-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4180A542BEA2B9B006F2156 /* Build configuration list for PBXNativeTarget "Nine-watchOS" */;
+			buildPhases = (
+				D4180A222BEA2B9A006F2156 /* Resources */,
+				D4180A532BEA2B9B006F2156 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4180A2D2BEA2B9A006F2156 /* PBXTargetDependency */,
+			);
+			name = "Nine-watchOS";
+			productName = "Nine-watchOS";
+			productReference = D4180A242BEA2B9A006F2156 /* Nine-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D4180A292BEA2B9A006F2156 /* Nine-watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4180A502BEA2B9B006F2156 /* Build configuration list for PBXNativeTarget "Nine-watchOS Watch App" */;
+			buildPhases = (
+				D4180A262BEA2B9A006F2156 /* Sources */,
+				D4180A272BEA2B9A006F2156 /* Frameworks */,
+				D4180A282BEA2B9A006F2156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nine-watchOS Watch App";
+			productName = "Nine-watchOS Watch App";
+			productReference = D4180A2A2BEA2B9A006F2156 /* Nine-watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4180A3B2BEA2B9B006F2156 /* Nine-watchOS Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4180A572BEA2B9B006F2156 /* Build configuration list for PBXNativeTarget "Nine-watchOS Watch AppTests" */;
+			buildPhases = (
+				D4180A382BEA2B9B006F2156 /* Sources */,
+				D4180A392BEA2B9B006F2156 /* Frameworks */,
+				D4180A3A2BEA2B9B006F2156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4180A3E2BEA2B9B006F2156 /* PBXTargetDependency */,
+			);
+			name = "Nine-watchOS Watch AppTests";
+			productName = "Nine-watchOS Watch AppTests";
+			productReference = D4180A3C2BEA2B9B006F2156 /* Nine-watchOS Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4180A452BEA2B9B006F2156 /* Nine-watchOS Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4180A5A2BEA2B9B006F2156 /* Build configuration list for PBXNativeTarget "Nine-watchOS Watch AppUITests" */;
+			buildPhases = (
+				D4180A422BEA2B9B006F2156 /* Sources */,
+				D4180A432BEA2B9B006F2156 /* Frameworks */,
+				D4180A442BEA2B9B006F2156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4180A482BEA2B9B006F2156 /* PBXTargetDependency */,
+			);
+			name = "Nine-watchOS Watch AppUITests";
+			productName = "Nine-watchOS Watch AppUITests";
+			productReference = D4180A462BEA2B9B006F2156 /* Nine-watchOS Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4180A1E2BEA2B9A006F2156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D4180A232BEA2B9A006F2156 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D4180A292BEA2B9A006F2156 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D4180A3B2BEA2B9B006F2156 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D4180A292BEA2B9A006F2156;
+					};
+					D4180A452BEA2B9B006F2156 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D4180A292BEA2B9A006F2156;
+					};
+				};
+			};
+			buildConfigurationList = D4180A212BEA2B9A006F2156 /* Build configuration list for PBXProject "Nine-watchOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4180A1D2BEA2B9A006F2156;
+			productRefGroup = D4180A252BEA2B9A006F2156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4180A232BEA2B9A006F2156 /* Nine-watchOS */,
+				D4180A292BEA2B9A006F2156 /* Nine-watchOS Watch App */,
+				D4180A3B2BEA2B9B006F2156 /* Nine-watchOS Watch AppTests */,
+				D4180A452BEA2B9B006F2156 /* Nine-watchOS Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4180A222BEA2B9A006F2156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4180A282BEA2B9A006F2156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4180A372BEA2B9B006F2156 /* Preview Assets.xcassets in Resources */,
+				D4180A342BEA2B9B006F2156 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4180A3A2BEA2B9B006F2156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4180A442BEA2B9B006F2156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4180A262BEA2B9A006F2156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4180A322BEA2B9A006F2156 /* ContentView.swift in Sources */,
+				D4180A302BEA2B9A006F2156 /* App_watchOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4180A382BEA2B9B006F2156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4180A412BEA2B9B006F2156 /* Nine_watchOS_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4180A422BEA2B9B006F2156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4180A4D2BEA2B9B006F2156 /* Nine_watchOS_UILaunchTests.swift in Sources */,
+				D4180A4B2BEA2B9B006F2156 /* Nine_watchOS_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4180A2D2BEA2B9A006F2156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4180A292BEA2B9A006F2156 /* Nine-watchOS Watch App */;
+			targetProxy = D4180A2C2BEA2B9A006F2156 /* PBXContainerItemProxy */;
+		};
+		D4180A3E2BEA2B9B006F2156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4180A292BEA2B9A006F2156 /* Nine-watchOS Watch App */;
+			targetProxy = D4180A3D2BEA2B9B006F2156 /* PBXContainerItemProxy */;
+		};
+		D4180A482BEA2B9B006F2156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4180A292BEA2B9A006F2156 /* Nine-watchOS Watch App */;
+			targetProxy = D4180A472BEA2B9B006F2156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4180A4E2BEA2B9B006F2156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4180A4F2BEA2B9B006F2156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D4180A512BEA2B9B006F2156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = SRD9PR5GCG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nine-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rob.Nine-watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		D4180A522BEA2B9B006F2156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = SRD9PR5GCG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nine-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rob.Nine-watchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		D4180A552BEA2B9B006F2156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRD9PR5GCG;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nine-watchOS";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rob.Nine-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4180A562BEA2B9B006F2156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRD9PR5GCG;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nine-watchOS";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rob.Nine-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4180A582BEA2B9B006F2156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRD9PR5GCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rob.Nine-watchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nine-watchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nine-watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		D4180A592BEA2B9B006F2156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRD9PR5GCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rob.Nine-watchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nine-watchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nine-watchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		D4180A5B2BEA2B9B006F2156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRD9PR5GCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rob.Nine-watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Nine-watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		D4180A5C2BEA2B9B006F2156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SRD9PR5GCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rob.Nine-watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Nine-watchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4180A212BEA2B9A006F2156 /* Build configuration list for PBXProject "Nine-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4180A4E2BEA2B9B006F2156 /* Debug */,
+				D4180A4F2BEA2B9B006F2156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4180A502BEA2B9B006F2156 /* Build configuration list for PBXNativeTarget "Nine-watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4180A512BEA2B9B006F2156 /* Debug */,
+				D4180A522BEA2B9B006F2156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4180A542BEA2B9B006F2156 /* Build configuration list for PBXNativeTarget "Nine-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4180A552BEA2B9B006F2156 /* Debug */,
+				D4180A562BEA2B9B006F2156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4180A572BEA2B9B006F2156 /* Build configuration list for PBXNativeTarget "Nine-watchOS Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4180A582BEA2B9B006F2156 /* Debug */,
+				D4180A592BEA2B9B006F2156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4180A5A2BEA2B9B006F2156 /* Build configuration list for PBXNativeTarget "Nine-watchOS Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4180A5B2BEA2B9B006F2156 /* Debug */,
+				D4180A5C2BEA2B9B006F2156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4180A1E2BEA2B9A006F2156 /* Project object */;
+}
